@@ -64,7 +64,7 @@ Avvia lo script:
 python "main.py"
 ```
 
-Se nel repository lo rinomini in `main.py`, usa invece `python main.py`.
+usa  `python main.py`.
 
 1. **Scegli il primo frammento.** È il riferimento, visualizzato in blu, e resterà fermo.
 2. **Scegli il secondo frammento.** Sarà visualizzato in rosso e verrà spostato.
