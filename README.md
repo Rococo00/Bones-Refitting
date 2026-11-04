@@ -115,15 +115,3 @@ Oltre alla visualizzazione finale, il terminale mostra il numero di punti delle 
 Questi valori aiutano a valutare l'allineamento, ma vanno letti insieme e confrontati con il risultato visivo. Un errore basso, da solo, non garantisce che i frammenti siano stati ricomposti correttamente.
 
 **La versione attuale visualizza il risultato senza esportarlo su file.** I file originali non vengono modificati.
-
-## Problemi comuni
-
-| Problema | Cosa controllare |
-| --- | --- |
-| Il programma richiede almeno quattro punti. | Seleziona almeno quattro punti per frammento, nello stesso numero e ordine. |
-| Compare il messaggio “patch troppo piccole”. | Almeno una patch ha meno di 10 punti: aumenta `RAGGIO_PATCH` o scegli una zona con più vertici. |
-| Una mesh risulta vuota o non caricata. | Controlla il percorso e verifica che il file contenga una mesh valida. |
-| I frammenti si allineano male. | Controlla le corrispondenze manuali, la scala dei modelli e la scelta delle regioni di contatto. |
-| Non si aprono le finestre. | Verifica la disponibilità di Tkinter e di un ambiente grafico adatto alla visualizzazione 3D. |
-
-Il programma richiede una selezione manuale iniziale: ICP raffina quella posizione e può convergere a un allineamento sbagliato se i punti di partenza non sono adatti. Inoltre, non esegue fusione delle mesh, ricostruzione delle parti mancanti o controllo delle collisioni tra i frammenti.
